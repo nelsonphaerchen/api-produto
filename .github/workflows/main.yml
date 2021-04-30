@@ -44,6 +44,6 @@ jobs:
           # Path to the Dockerfile
           file: ./src/Dockerfile
           push: true
-          tags:
-            nelsonph/api-bootcamp-produto:${{github.run_number}}
+          tags: |
             nelsonph/api-bootcamp-produto:latest
+            nelsonph/api-bootcamp-produto:${{github.run_number}}
