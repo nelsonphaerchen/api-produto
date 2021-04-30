@@ -45,5 +45,5 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags:
-            nelsonph/api-bootcamp-produto:latest
             nelsonph/api-bootcamp-produto:${{github.run_number}}
+            nelsonph/api-bootcamp-produto:latest
