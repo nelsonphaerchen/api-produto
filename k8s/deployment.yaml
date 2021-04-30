@@ -18,7 +18,7 @@ spec:
           - containerPort: 8080
           env:
           - name: MONGODB_URI
-            value: mongodb://mongouser:*****@mongodb-service:27017/admin
+            value: mongodb://mongouser:mongopassword@mongodb-service:27017/admin
 ---
 
 apiVersion: v1
